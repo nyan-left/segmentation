@@ -1,0 +1,32 @@
+{
+  "name": "segmentation",
+  "version": "1.0.0",
+  "description": "segmentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyan-left/segmentation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyan-left/segmentation/issues"
+  },
+  "homepage": "https://github.com/nyan-left/segmentation#readme",
+  "dependencies": {
+    "@tensorflow-models/body-pix": "^2.2.0",
+    "@tensorflow/tfjs-node": "^3.6.1",
+    "jimp": "^0.16.1",
+    "node-fs": "^0.1.7",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.1",
+    "typescript": "^4.2.4"
+  }
+}
